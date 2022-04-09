@@ -1,7 +1,7 @@
 import { Card, Col, Text } from "@nextui-org/react";
 
 export const Card2 = () => (
-  <Card width="100%" cover>
+  <Card width="100%" cover hoverable clickable>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
